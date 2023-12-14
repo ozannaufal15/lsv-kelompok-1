@@ -34,7 +34,7 @@ jobs:
         run: |
           npm install
           npm run build --if-present
-          npx mix --if-present
+          npm run dev --if-present
           npm run test --if-present
 
       - name: Check if composer.json exists
