@@ -1,0 +1,55 @@
+.box{
+    margin-top: 30px;
+    background: r695CFE;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(157, 49, 202, 0.3);
+    
+    position: absolute;
+    left: 100px;
+    right: 370px;
+    top: 76px;
+    bottom: 150px;
+}
+form{
+    padding-left: 50px;
+}
+input[type=text],[type=date]{
+    background-color: transparent;
+    color: black;
+    border: transparent;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 300px;
+    margin-left: 10px;
+    font-size: 20px;
+    position: relative;
+}
+label{
+    font-size: 18px;
+}
+button{
+    color: white;
+    border: 1px solid transparent;
+    margin-top: 100px;
+    padding: 5px;
+    width: 150px;
+    position: relative;
+    top: -60px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    background: #695CFE;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(244, 180, 255, 0.3);
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.553);
+    transition: 0.3s;
+    box-shadow: black;
+}
